@@ -1,45 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Alizée Dao</title>
-        <meta charset="utf-8">
-        <meta name="description" content="Alizée DAO, jeune passionnée par l'univers du web et des nouvelles technologies. En recherche d'un contrat de professionnalisation." />
-        <meta name="keywords" content="alizee dao, ebusiness, webmarketing, lyon, web, digital, NTIC, community management" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Alizée DAO, jeune passionnée par l'univers du web et des nouvelles technologies. En recherche d'un contrat de professionnalisation." />
+    <meta name="keywords" content="alizee dao, ebusiness, webmarketing, lyon, web, digital, NTIC, community management" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Le CV d'alizé</title>
 
-    <!-- styles -->
-        <link href="css/style.css" rel="stylesheet" />
-    
-    <!-- fonts -->
-        
-    </head>
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  
+	 <!-- styles --> 
+	<link href="css/style.css" rel="stylesheet">
+	  
+	 <!-- fonts (moi j'ai utilisé google fonts, tu as juste a copier le code que google te donnes-->
+	 <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
 
-    <body>
-        
-    <ul id="nav">
-        <li id="nav-home"><a href="./index.html">Accueil</a></li>
-        <li id="nav-cv"><a href="./cv.html">CV</a></li>
-        <li id="nav-portfolio"><a href="./portfolio.html">Portfolio</a></li>
-        <li id="nav-contact"><a href="./contact.html">Contact</a></li>
-    </ul>
-        
-    <p>"Je m'appelle Alizée Dao, je suis étudiante dans le Ebusiness et passionnée par le web et les nouvelles technologies."</p>
-        
-    <table id="infos">
-        <tr>
-            <td>Nom : Alizée Dao</td>
-            <td>Email : alizee.dao@hotmail.fr</td>
-        </tr>  
-        <tr>
-            <td>Âge : 21 ans (16.11.1993)</td>
-            <td>Téléphone : 06.03.10.76.13</td>
-        </tr>
-        <tr>
-            <td>Adresse : 69100 Villeurbanne</td>
-            <td>Site web : www.alizeedao.com</td>
-        </tr>
-    </table>
-        
-    </body>
+  </head>
+  <body>
+		<div id="middlebox">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<!-- menu responsive -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Alizé Dao</a>
+					</div>
 
+					<!-- menu général -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="./index.html">Accueil</a></li>
+							<li><a href="./cv.html">CV</a></li>
+							<li><a href="./portfolio.html">Portfolio</a></li>
+							<li><a href="./contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<img id="photoid" src="img/28a0821.jpg">
+			<div id="phrase_intro">
+		  		<h2>"Je m'appelle Alizée Dao, je suis étudiante dans le Ebusiness et passionnée par le web et les nouvelles technologies."</h2>
+			</div>	
+		  	<table id="table_info">
+			  <tr>
+				<tr>
+					<td>Nom : Alizée Dao</td>
+					<td>Email : alizee.dao@hotmail.fr</td>
+				</tr>  
+				<tr>
+					<td>Âge : 21 ans (16.11.1993)</td>
+					<td>Téléphone : 06.03.10.76.13</td>
+				</tr>
+				<tr>
+					<td>Adresse : 69100 Villeurbanne</td>
+					<td>Site web : www.alizeedao.com</td>
+				</tr>
+			  </tr>
+		  	</table>
+		</div>
+
+    <!-- jQuery (nceci est une bilbiothèque javascript pour les animations) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Plugins jquery Bootstrap -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>

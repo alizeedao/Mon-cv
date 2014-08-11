@@ -1,0 +1,59 @@
+html {
+    background-color: #F1A9A0;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2em 2em 9em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #545454;
+    background-color: #FFECDB;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+  	font-size: 18px;
+	font-style:italic;
+  	
+}
+
+#middlebox {
+	margin-top: 100px;
+	background-color: #fff; 
+	width: 730px;
+	height: 300px;
+}
+
+.navbar {
+  	background-color:#E08283;
+	
+}
+
+#photoid {
+	width: 150px;
+  	height: auto;
+  	display: inline-block;
+  	float: left;
+  	border-radius: 25px;
+	margin-left: 20px;
+	margin-top: 10px; 
+  
+}
+
+#table_info {
+  	display: inline-block;
+  	line-height: 30px;
+  	border-collapse: separate;
+  	border-spacing: 40px 8px;
+}
+
+#phrase_intro {
+	padding-left: 200px;
+}
+
+
+
+
